@@ -30,7 +30,12 @@ header{
 
 nav{
 
-    width:1450px;
+    width:100%;
+    max-width:1450px;
+
+    margin:auto;
+
+    padding:0 30px;
 
     display:flex;
 
@@ -70,11 +75,9 @@ nav{
 
     align-items:center;
 
-    gap:8px;
+    gap:10px;
 
-    margin-left: -200px;   
-
-}
+}  
 
 .logo img{
 
@@ -136,7 +139,13 @@ nav button{
 
     width:50%;
 
-    padding-left:100px;
+    padding-left:70px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
 
 }
 
@@ -148,15 +157,14 @@ nav button{
 
     justify-content:center;
 
-    align-items:flex-end;
+    align-items:center;
 
 }
 
 .hero-right img{
 
-    width:700px;
-
-     margin-left: -100px;  
+    width:100%;
+    max-width:700px;
 
 }
 
@@ -366,7 +374,8 @@ footer{
 
 .footer-container{
 
-    width:1400px;
+    width:100%;
+    max-width:1400px;
 
     margin:auto;
 
@@ -375,6 +384,8 @@ footer{
     flex-direction:column;
 
     gap:15px;
+
+    padding:0 30px;
 
 }
 
@@ -424,29 +435,81 @@ footer{
 
 /* ================= RESPONSIVE ================= */
 
-@media (max-width: 768px){
+@media (max-width:768px){
+
+header{
+
+    height:auto;
+
+}
+
+nav{
+
+    width:100%;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px;
+
+    gap:20px;
+
+}
+
+.menu{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin:0;
+
+}
+
+.logo{
+
+    margin:0;
+
+}
+
+.logo img{
+
+    width:60px;
+
+}
+
+.logo h2{
+
+    font-size:24px;
+
+}
+
+nav button{
+
+    width:220px;
+
+}
 
 .hero{
 
-    flex-direction: column;
+    flex-direction:column;
 
-    height: auto;
+    justify-content:center;
 
-    padding: 50px 20px;
+    align-items:center;
 
-}
+    height:auto;
 
-.hero-left h1{
+    padding:40px 20px;
 
-    font-size:55px;
-
-    line-height:60px;
-
-}
-
-.hero-left h3{
-
-    font-size:30px;
+    text-align:center;
 
 }
 
@@ -456,7 +519,41 @@ footer{
 
     padding:0;
 
-    text-align:center;
+}
+
+.hero-left h3{
+
+    font-size:32px;
+
+}
+
+.hero-left h1{
+
+    font-size:65px;
+
+    line-height:65px;
+
+}
+
+.hero-left p{
+
+    width:100%;
+
+    margin:auto;
+
+    margin-bottom:30px;
+
+}
+
+.line{
+
+    margin:20px auto;
+
+}
+
+.hero-left button{
+
+    margin:auto;
 
 }
 
@@ -476,27 +573,9 @@ footer{
 
 }
 
-nav{
-
-    flex-direction:column;
-
-    height:auto;
-
-    padding:20px;
-
-}
-
-.menu{
-
-    flex-direction:column;
-
-    gap:15px;
-
-    margin:20px 0;
-
-}
-
 .mission-vision{
+
+    display:flex;
 
     flex-direction:column;
 
@@ -506,13 +585,51 @@ nav{
 
     width:100%;
 
+    padding:50px 25px;
+
+}
+
+.card-icon{
+
+    width:90px;
+
+}
+
+.card h2{
+
+    font-size:38px;
+
+}
+
+.card p{
+
+    width:100%;
+
+    font-size:18px;
+
+    line-height:32px;
+
 }
 
 .footer-container{
 
-    flex-direction:column;
+    width:100%;
 
-    align-items:center;
+    padding:20px;
+
+}
+
+.social{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.social a{
+
+    font-size:18px;
 
 }
 
