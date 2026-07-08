@@ -2,180 +2,335 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aerly Pap</title>
+
+    <title>Aerly PAP</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Fuente -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
+    <!-- ========================================= -->
+    <!-- NAVBAR -->
+    <!-- ========================================= -->
 
     <header>
 
-        <nav>
+        <nav class="navbar">
+
+            <!-- Logo -->
+
+            <a href="#home" class="logo">
+
+                <img src="images/logo.png" alt="Aerly PAP Logo">
+
+                <h2>AERLY PAP</h2>
+
+            </a>
+
+            <!-- Menú -->
 
             <ul class="menu">
 
-                <li><a href="#home">INICIO</a></li>
+                <li><a href="#home">HOME</a></li>
 
                 <li><a href="#about">ABOUT US</a></li>
 
                 <li><a href="#product">PRODUCT</a></li>
 
                 <li><a href="#contact">CONTACT</a></li>
-                
 
             </ul>
 
-            <div class="logo">
+            <!-- Botón -->
 
-                <img src="images/logo.png" alt="Logo">
+            <a href="#contact" class="btn-nav">
 
-                <h2>AERLY PAP</h2>
+                RESERVE NOW
+
+            </a>
+
+            <!-- Botón hamburguesa -->
+
+            <div class="menu-toggle">
+
+                <i class="fa-solid fa-bars"></i>
 
             </div>
-
-            <button>
-
-                RESERVE NOW →
-
-            </button>
 
         </nav>
 
     </header>
 
+    <!-- ========================================= -->
+    <!-- HERO -->
+    <!-- ========================================= -->
 
+    <main>
 
-    <!-- ================= HERO ================= -->
+        <section id="home" class="hero">
 
-    <section id="home" class="hero">
+            <!-- Texto -->
 
-        <div class="hero-left">
+            <div class="hero-left">
 
-            <h3>WE MAKE EVERY</h3>
+                <span class="subtitle">
 
-            <h1>
+                    WE MAKE EVERY
 
-                BREATH <br>
+                </span>
 
-                EASIER
+                <h1>
 
-            </h1>
+                    BREATH <br>
 
-            <div class="line"></div>
+                    EASIER
 
-            <p>
+                </h1>
 
-                At Aerly Pap, we are committed to improving
-                your quality of life by offering high-quality,
-                accessible products for people with respiratory
-                conditions.
+                <div class="line"></div>
 
-            </p>
+                <p>
 
-            <button>
+                    At Aerly PAP, we are committed to improving your quality of life by offering high-quality,
+                    affordable CPAP masks and respiratory solutions for people living with sleep apnea and other
+                    respiratory conditions.
 
-                RESERVE NOW →
+                </p>
 
-            </button>
+                <a href="#contact" class="btn-primary">
+
+                    RESERVE NOW
+
+                </a>
+
+            </div>
+
+            <!-- Imagen -->
+
+            <div class="hero-right">
+
+                <img src="images/doctor.png" alt="Doctor">
+
+            </div>
+
+        </section>
+
+                <!-- ========================================= -->
+        <!-- MISSION & VISION -->
+        <!-- ========================================= -->
+
+        <section id="about" class="mission-vision">
+
+            <!-- Mission -->
+
+            <article class="card mission">
+
+                <img src="images/mission.png"
+                     alt="Mission"
+                     class="card-icon">
+
+                <h2>OUR MISSION</h2>
+
+                <p>
+
+                    To expand access to affordable CPAP masks,
+                    strengthen our presence as providers of
+                    accessible medical devices, and attract
+                    new users and healthcare professionals by
+                    increasing brand recognition and building
+                    long-term trust in our products and services.
+
+                </p>
+
+                <div class="mission-line"></div>
+
+            </article>
+
+            <!-- Vision -->
+
+            <article class="card vision">
+
+                <img src="images/vision.png"
+                     alt="Vision"
+                     class="card-icon">
+
+                <h2>OUR VISION</h2>
+
+                <p>
+
+                    To build an accessible, sustainable and
+                    technologically advanced respiratory-health
+                    ecosystem where no one is excluded from
+                    treatment due to cost or availability,
+                    while promoting innovation, improving
+                    access to quality medical solutions,
+                    and supporting better healthcare
+                    outcomes for communities.
+
+                </p>
+
+                <div class="vision-line"></div>
+
+            </article>
+
+        </section>
+
+        <!-- ========================================= -->
+        <!-- PRODUCT -->
+        <!-- ========================================= -->
+
+        <section id="product" class="product">
+
+            <div class="product-container">
+
+                <div class="product-title">
+
+                    <span>OUR PRODUCT</span>
+
+                    <h2>CPAP MASK</h2>
+
+                    <div class="line"></div>
+
+                </div>
+
+                <div class="product-content">
+
+                    <div class="product-image">
+
+                        <!-- Cambia mask.png por la imagen de tu producto -->
+
+                        <img src="images/mask.png"
+                             alt="CPAP Mask">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>Comfort meets innovation.</h3>
+
+                        <p>
+
+                            Aerly PAP masks are designed to
+                            provide maximum comfort,
+                            an ergonomic fit and excellent
+                            airflow while remaining affordable.
+                            They are suitable for patients
+                            who require CPAP therapy and
+                            are looking for quality without
+                            excessive costs.
+
+                        </p>
+
+                        <ul>
+
+                            <li>✔ Lightweight Design</li>
+
+                            <li>✔ Soft Silicone Cushion</li>
+
+                            <li>✔ Adjustable Straps</li>
+
+                            <li>✔ Quiet Airflow System</li>
+
+                        </ul>
+
+                        <a href="#contact"
+                           class="btn-primary">
+
+                            RESERVE NOW
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ========================================= -->
+    <!-- FOOTER -->
+    <!-- ========================================= -->
+
+    <footer id="contact">
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+
+                <img src="images/logo.png"
+                     alt="Logo">
+
+                <h2>AERLY PAP</h2>
+
+            </div>
+
+            <div class="footer-text">
+
+                <h3>CONTACT US</h3>
+
+                <p>
+
+                    We'd love to hear from you.
+
+                </p>
+
+            </div>
+
+            <div class="footer-social">
+
+                <a href="https://www.instagram.com/aerlypap/"
+                   target="_blank">
+
+                    <img src="images/instagram.png"
+                         alt="Instagram">
+
+                    <span>@aerlypap</span>
+
+                </a>
+
+                <a href="https://pe.linkedin.com/company/aerly-pap"
+                   target="_blank">
+
+                    <img src="images/linkedin.png"
+                         alt="LinkedIn">
+
+                    <span>@aerlypap</span>
+
+                </a>
+
+            </div>
 
         </div>
 
-        <div class="hero-right">
+        <div class="copyright">
 
-            <img src="images/doctor.png" alt="Doctor">
-
-        </div>
-    
-      </section>
-
-    <section id="about" class="mission-vision">
-
-    <div class="card mission">
-
-        <img class="card-icon" src="images/mission.png" alt="Mission">
-
-        <h2>OUR MISSION</h2>
-
-        <p>
-            To expand access to affordable CPAP masks,
-            strengthen our presence as providers of
-            accessible medical devices, and attract
-            new users and healthcare professionals by
-            increasing brand recognition and building
-            long-term trust in our products and services.
-        </p>
-
-       <div class="mission-line"></div>
-
-    </div>
-
-    <div class="card vision">
-
-      <img class="card-icon" src="images/vision.png" alt="Vision">
-
-        <h2>OUR VISION</h2>
-
-        <p>
-            To build an accessible, sustainable, and
-            technologically advanced respiratory-health
-            ecosystem where no one is excluded from
-            treatment due to cost or availability, while
-            promoting innovation, improving access to
-            quality medical solutions, and supporting
-            better healthcare outcomes for communities.
-        </p>
-
-        <div class="vision-line"></div>
-
-    </div>
-
-</section>
-
- <!-- ================= FOOTER ================= -->
-
-<footer id="contact">
-
-    <div class="footer-container">
-
-        <div class="etiqueta">
-
-            <h3>CONTACT US</h3>
+            © 2026 Aerly PAP. All Rights Reserved.
 
         </div>
 
-        <div class="social">
+    </footer>
 
-            <a href="https://pe.linkedin.com/company/aerly-pap" target="_blank">
-                <img src="images/linkedin.png" alt="LinkedIn">
-                <span>@aerlypap</span>
-            </a>
-
-        </div>
-
-        <div class="social">
-
-            <a href="https://www.instagram.com/aerlypap/" target="_blank">
-                <img src="images/instagram.png" alt="Instagram">
-                <span>@aerlypap</span>
-            </a>
-
-        </div>
-
-    </div>
-
-</footer>
-
+    <script src="script.js"></script>
 
 </body>
 
