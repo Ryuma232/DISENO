@@ -998,48 +998,54 @@ footer{
 @media (max-width: 480px) {
 
     .hero {
-        padding: 75px 25px 60px;
+        padding: 50px 24px 60px;
     }
 
     /* WE MAKE EVERY */
     .subtitle {
         font-size: 1.65rem;
         line-height: 1.1;
-        margin: 0 0 14px;
+        margin: 0 0 12px;
     }
 
     /* BREATH EASIER */
     .hero-left h1 {
-        font-size: clamp(3.7rem, 17vw, 4.3rem);
+        font-size: clamp(3.7rem, 16vw, 4.2rem);
         line-height: .95;
+        letter-spacing: -2px;
         margin: 0;
-        letter-spacing: -3px;
     }
 
     .line {
-        margin: 28px auto;
+        margin: 32px auto;
     }
 
     .hero-left p {
         font-size: 1rem;
         line-height: 1.7;
-        margin-bottom: 28px;
+        margin-bottom: 30px;
     }
 
-    .btn-primary{
+    /* Botón más pequeño */
+    .btn-primary {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    width:100%;
+        width: 270px;
+        max-width: 100%;
+        min-height: 58px;
+        padding: 14px 20px;
+        margin: 0 auto;
 
+        box-sizing: border-box;
     }
 
-.line{
+    .line{
 
-    width:90px;
+    width:90px;}
 
+    .product{
+
+    padding:80px 25px;}
 }
-
-.product{
-
-    padding:80px 25px;
-
-}}
