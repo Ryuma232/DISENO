@@ -919,13 +919,14 @@ footer{
 .subtitle{
 
     font-size:2rem;
-
+    margin: 0 0 10px;
 }
 
 .hero-left h1{
 
-    font-size:4.5rem;
+    font-size: clamp(.7rem, 17vw, 4.3rem);
 
+    margin: 0;
     line-height:75px;
 
 }
@@ -1009,7 +1010,7 @@ footer{
 
     /* BREATH EASIER */
     .hero-left h1 {
-        font-size: 4rem;
+        font-size: clamp(3.7rem, 17vw, 4.3rem);
         line-height: .95;
         margin: 0;
         letter-spacing: -3px;
@@ -1041,6 +1042,4 @@ footer{
 
     padding:80px 25px;
 
-}
-
-}
+}}
