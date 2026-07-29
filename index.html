@@ -30,52 +30,72 @@
     <!-- NAVBAR -->
     <!-- ========================================= -->
 
-    <header>
+    <header class="site-header">
 
-        <nav class="navbar">
+    <nav class="navbar">
 
-            <!-- Logo -->
+        <!-- Logo -->
+        <a href="#home" class="logo">
+            <img src="images/logo.png" alt="Aerly PAP Logo">
+        </a>
 
-            <a href="#home" class="logo">
+        <!-- Menú -->
+        <ul class="menu" id="nav-menu">
 
-                <img src="images/logo.png" alt="Aerly PAP Logo">
+            <li>
+                <a href="#home" class="active">
+                    <i class="fa-solid fa-house menu-icon"></i>
+                    <span>HOME</span>
+                </a>
+            </li>
 
+            <li>
+                <a href="#about">
+                    <i class="fa-solid fa-users menu-icon"></i>
+                    <span>ABOUT US</span>
+                </a>
+            </li>
 
-            </a>
+            <li>
+                <a href="#product">
+                    <i class="fa-solid fa-cube menu-icon"></i>
+                    <span>PRODUCT</span>
+                </a>
+            </li>
 
-            <!-- Menú -->
+            <li>
+                <a href="#contact">
+                    <i class="fa-solid fa-envelope menu-icon"></i>
+                    <span>CONTACT</span>
+                </a>
+            </li>
 
-            <ul class="menu">
+            <!-- Solo aparece dentro del menú móvil -->
+            <li class="mobile-reserve">
+                <a href="#contact">RESERVE NOW</a>
+            </li>
 
-                <li><a href="#home">HOME</a></li>
+        </ul>
 
-                <li><a href="#about">ABOUT US</a></li>
+        <!-- Botón para computadora -->
+        <a href="#contact" class="btn-nav">
+            RESERVE NOW
+        </a>
 
-                <li><a href="#product">PRODUCT</a></li>
+        <!-- Botón hamburguesa -->
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Abrir menú"
+            aria-controls="nav-menu"
+            aria-expanded="false"
+        >
+            <i class="fa-solid fa-bars"></i>
+        </button>
 
-                <li><a href="#contact">CONTACT</a></li>
+    </nav>
 
-            </ul>
-
-            <!-- Botón -->
-
-            <a href="#contact" class="btn-nav">
-
-                RESERVE NOW
-
-            </a>
-
-            <!-- Botón hamburguesa -->
-
-            <div class="menu-toggle">
-
-                <i class="fa-solid fa-bars"></i>
-
-            </div>
-
-        </nav>
-
-    </header>
+</header>
 
     <!-- ========================================= -->
     <!-- HERO -->
