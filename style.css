@@ -994,39 +994,42 @@ footer{
             CELULARES PEQUEÑOS
 ====================================================*/
 
-@media(max-width:480px){
+@media (max-width: 480px) {
 
-.hero{
+    .hero {
+        padding: 75px 25px 60px;
+    }
 
-    padding:120px 25px 60px;
+    /* WE MAKE EVERY */
+    .subtitle {
+        font-size: 1.65rem;
+        line-height: 1.1;
+        margin: 0 0 14px;
+    }
 
-}
+    /* BREATH EASIER */
+    .hero-left h1 {
+        font-size: 4rem;
+        line-height: .95;
+        margin: 0;
+        letter-spacing: -3px;
+    }
 
-.subtitle{
+    .line {
+        margin: 28px auto;
+    }
 
-    font-size:1.5rem;
+    .hero-left p {
+        font-size: 1rem;
+        line-height: 1.7;
+        margin-bottom: 28px;
+    }
 
-}
-
-.hero-left h1{
-
-    font-size:3.4rem;
-
-    line-height:58px;
-
-}
-
-.hero-left p{
-
-    font-size:.95rem;
-
-}
-
-.btn-primary{
+    .btn-primary{
 
     width:100%;
 
-}
+    }
 
 .line{
 
